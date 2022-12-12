@@ -13,13 +13,17 @@ public class Main {
             selection = sc.nextInt();
             switch(selection) {
                 case 1:
-
+                    System.out.println("Hello World!!!!!");
+                    break;
                 case 2:
-
+                    System.out.println("Bolyai OS v1");
+                    break;
                 case 3:
-
+                    System.out.println("Viszlát!");
+                    break;
                 case 4:
-
+                    System.out.println("Parancsok: Exit, Info, Help, Hello World");
+                    break;
             }
         }
         while(selection != 3);
